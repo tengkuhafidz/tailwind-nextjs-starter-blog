@@ -5,6 +5,9 @@ import SocialIcon from '@/components/social-icons'
 export default function Footer() {
   return (
     <footer>
+      <div>
+        <div data-mooform-id="c6742ad0-dada-4101-9c76-265c86aa89ed"></div>
+      </div>
       <div className="flex flex-col items-center mt-16">
         <div className="flex mb-3 space-x-4">
           <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size="6" />
