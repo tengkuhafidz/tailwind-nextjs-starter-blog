@@ -51,7 +51,7 @@ export default function Home({ posts }) {
                         <div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
-                              href={`/blog/${slug}`}
+                              href={`/${slug}`}
                               className="text-gray-900 dark:text-gray-100"
                             >
                               {title}
