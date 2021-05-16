@@ -107,6 +107,11 @@ class MyDocument extends Document {
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
+          <script
+            async
+            data-cfasync="false"
+            src="https://assets.swarmcdn.com/cross/swarmdetect.js"
+          ></script>
         </body>
       </Html>
     )
