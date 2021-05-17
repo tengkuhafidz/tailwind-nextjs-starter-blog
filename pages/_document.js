@@ -103,6 +103,13 @@ class MyDocument extends Document {
             integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw"
             crossOrigin="anonymous"
           />
+          {/* Scripts */}
+          <script
+            async
+            data-apikey="87d1d059102b37bc4c9f0bdc2ef04c"
+            data-cookieless
+            src="https://cdn.jsdelivr.net/npm/hockeystack@latest/hockeystack.min.js"
+          ></script>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />
